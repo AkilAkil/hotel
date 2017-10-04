@@ -19,7 +19,7 @@ session_start();
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">PR</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php">Home</a></li>
       
         <li><a href="onlinebook.php">Book Online</a></li>
       

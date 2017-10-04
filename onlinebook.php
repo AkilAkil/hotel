@@ -100,7 +100,7 @@ else
 <div class="row">
             <form class="col s12" name="book" method="POST" action="onlinebook.php" onsubmit="return confirm('Are You Sure to Book the room');"><br><br><br>
                 <h2 class="header center orange-text">Book Your Room</h2>
-                <div class="input-field col s3 offset-s3">
+                <div class="input-field col s3 offset-s3 center">
                     <input placeholder="Name" name="name" type="text" class="validate">
                     <input placeholder="ID Proof with Number" name="idp" type="text" class="validate" >
                     <input placeholder="Contact number" name="contno" type="text" class="validate">
@@ -108,7 +108,9 @@ else
                     <input type="date" placeholder="Check-out date(dd/mm/yyyy)" class="calendar" name="dto">
                      <input type="text" placeholder="Check-in Time(10 AM)" class="timepicker" name="tmi">
                      <input type="text" placeholder="Check-out Time" class="timepicker" name="tmo">  
-                    <input type="submit" class="waves-effect waves-light btn" value="Book " name= "submit">
+                    <button type="submit" class=" waves-effect waves-light btn" name= "submit">Book 
+                    <i class="material-icons right">send</i>
+                    </button>
                     </div>
                     </form>
                     </div>
