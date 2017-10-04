@@ -107,8 +107,8 @@ else
                     <input placeholder="Name" name="name" type="text" class="validate">
                     <input placeholder="ID Proof with Number" name="idp" type="text" class="validate" >
                     <input placeholder="Contact number" name="contno" type="text" class="validate">
-                    <input type="date" placeholder="Check-in date(dd/mm/yyyy)" class="calendar" name="dti">
-                    <input type="date" placeholder="Check-out date(dd/mm/yyyy)" class="calendar" name="dto">
+                    <input type="date" placeholder="Check-in date(dd/mm/yyyy)" class="datepicker" name="dti">
+                    <input type="date" placeholder="Check-out date(dd/mm/yyyy)" class="datepicker" name="dto">
                      <input type="text" placeholder="Check-in Time(10 AM)" class="timepicker" name="tmi">
                      <input type="text" placeholder="Check-out Time" class="timepicker" name="tmo">  
                     <button type="submit" class=" waves-effect waves-light btn" name= "submit">Book 

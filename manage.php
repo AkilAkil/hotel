@@ -97,6 +97,7 @@ session_start();
     <li><a href="room.php" target = "myframe">Rooms</a></li>
     <li><a  href="#!">Cab Details</a></li>
     <li><a  href="occup.php" target = "myframe">Occupied Rooms</a></li>
+    <li><a  href="roomdt.php" target = "myframe">Rooms Booked By Date</a></li>
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
