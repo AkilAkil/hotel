@@ -76,7 +76,7 @@ session_start();
       <ul id="nav-mobile" class="side-nav">
         <li><a href="index.php">Home</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="index.php" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -95,7 +95,7 @@ session_start();
     </div></li>
     <li><a href="book.php" target = "myframe">Book Rooms</a></li>
     <li><a href="room.php" target = "myframe">Rooms</a></li>
-    <li><a  href="#!">Cab Details</a></li>
+    <li><a  href="cab.php" target = "myframe">Cab Details</a></li>
     <li><a  href="occup.php" target = "myframe">Occupied Rooms</a></li>
     <li><a  href="roomdt.php" target = "myframe">Rooms Booked By Date</a></li>
   </ul>
