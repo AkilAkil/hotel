@@ -11,10 +11,30 @@ session_start();
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript">
+ 
+ (function($){
+  $(function(){
+    $('.parallax').parallax();
+  });
+})(jQuery);
+
+  </script>
+
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+
+ 
+
+
 </head>
 <body>
+
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">PR</a>
@@ -69,7 +89,7 @@ session_start();
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>About Us</h4>
-          <p class="left-align light">we are famous for exceptional meals, personalised service, relaxing spa treatments and our stunning beachfront location on the Lord Howe Lagoon. Discover world-class diving, snorkelling, fishing, walking, surfing, kayaking and golf, or just relax and rejuvenate on one of Australia's most beautiful islands. In November 2014, Pinetrees was voted the ‘Best Affordable Resort in Australia’ by the readers of Australian Traveller Magazine, and in January 2017, Pinetrees won the title of 'TripAdvisor's Number 1 Hotel in Australia'.</p>
+          <p class="left-align light">we are famous for exceptional meals, personalised service, relaxing spa treatments and our stunning beachfront location on the Lord Howe Lagoon. Discover world-class diving, snorkelling, fishing, walking, surfing, kayaking and golf, or just relax and rejuvenate on one of Hyderabad's most beautiful Places. In November 2014, Pinetrees was voted the ‘Best Affordable Resort in Hyderabad’ by the readers of Australian Traveller Magazine, and in January 2017, Pinetrees won the title of 'TripAdvisor's Number 1 Hotel in Hyderabad'.</p>
         </div>
       </div>
 

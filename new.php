@@ -45,7 +45,7 @@ else
       <div class="row">
         <div class="input-field col s6  ">
           <input placeholder="UserName" name= "uname" type="text" class="validate">
-          <label for="first_name">User Name</label>
+          
         </div>
         
       </div>
@@ -54,16 +54,16 @@ else
       <div class="row">
       <div class="input-field col s6 ">
         
-          <input name="password" type="password" class="validate">
-          <label for="password" data-error="wrong" >Password</label>
+          <input name="password" type="password" class="validate" placeholder = "password">
+          <label for="password" data-error="wrong" ></label>
         
       </div>
       </div>
       <div class="row">
        
         <div class="input-field col s6 ">
-          <input id="email" type="email" class="validate" name = mail>
-          <label for="email" data-error="wrong" >Email</label>
+          <input id="email" type="email" class="validate" name = "mail" placeholder="email">
+          <label for="email" data-error="wrong" ></label>
        
         </div>
       </div>
